@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'BankingSystem',
     'cards',
     'transactions',
-    'Users',
+    'users',
 ]
 
 MIDDLEWARE = [
