@@ -166,3 +166,8 @@ class CardManager:
     def close_connection(self):
         """Close the database connection."""
         self.conn.close()
+
+
+db_manager = CardManager()
+
+db_manager.create_tables()

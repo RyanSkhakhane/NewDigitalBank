@@ -2,6 +2,8 @@ import sqlite3
 import bcrypt
 from datetime import datetime
 
+from cards.createCardTable import create_tables
+
 
 class User:
     def __init__(self, db_path="ndb_bank.db"):
@@ -301,3 +303,6 @@ class User:
     def close_connection(self):
         """Close the database connection."""
         self.conn.close()
+
+
+
